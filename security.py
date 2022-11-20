@@ -17,9 +17,8 @@ engine.setProperty('voice', voices[1].id)
 engine.say("Welcome to the world of DEFENSE SECURITY MANAGEMENT ")
 engine.say("I AM Sylvie , YOUR assistant")
 engine.runAndWait()
-mydb = ms.connect(host="localhost", user="root", password="seerthana_1580")
+mydb = ms.connect(host="localhost", user="root", password="aqwerta_1580")
 mc = mydb.cursor()
-mc.execute("DROP DATABASE DEFENSE")
 mc.execute("CREATE DATABASE IF NOT EXISTS DEFENSE")
 
 
